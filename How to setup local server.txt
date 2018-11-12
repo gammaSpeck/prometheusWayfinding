@@ -1,0 +1,35 @@
+To ensure your website to be working...
+
+* Enable port forwarding:
+	Open your router page and add the port forwarding option for Web server(HTTP).
+	The TCP port is 80 and re route it to the the LOCAL IP ADDRESS.
+
+* Ensure that the system is Listening on the PORT 80. Type in the following:
+-------------------------------------------------------------------------------
+madhu_km@MadhuKM:~$ sudo ufw allow 80/tcp
+Rule added
+Rule added (v6)
+
+madhu_km@MadhuKM:~$ sudo ufw status verbose
+Status: active
+Logging: on (low)
+Default: allow (incoming), allow (outgoing), deny (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+80/tcp                     ALLOW IN    Anywhere                  
+80/tcp (v6)                ALLOW IN    Anywhere (v6)
+	
+-------[Once you see this, your webserver is ready]-----------------------------
+
+
+* Now make sure all your servers are running on XAMPP.
+
+* Place your Website inside your htdocs Folder.
+
+* Get to know your STATIC IP ADDRESS by googling "my ip"
+
+* Now from any other network, type in "http://my_ip", and hit enter.
+	- Voila, you shall be directed to your laptop hosted Website.
+	- Ensure that you have an index.html, else just type the absolute address of your website following the "http://my_ip".

@@ -1,0 +1,83 @@
+body {
+	/* Sets the BGI */
+	background: url("../images/directions.jpg") no-repeat center center fixed;
+	background-size: cover;    /* Spans full page-Cover Picture style */
+	font-size: 15px;/*15px default for whole page, unless specified otherwise */
+	font-weight: 500;/* Default Thickness of letters */
+	font-family: 'Lato', sans-serif;
+	color: #30200e;
+	text-align: center;
+}
+
+.welcome_box{
+	background: rgba(218, 221, 128, 0.4);
+	font-size: 60px;
+	display: block;
+	border-radius: 20px;
+	margin: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding: 30px;
+	text-align: center;
+	color: #60513e;
+}
+
+.Intro{
+	max-width: 1200px;
+	max-height: 300px;
+	padding: 20px;
+	margin: 10px;
+	background: rgba(218, 221, 128, 0.4);
+	border-radius: 15px;
+	font-size: 25px;
+	color: #60513e
+
+}
+
+.button{
+	display: inline-block;
+	border-radius: 50px;
+	background: rgba(148, 221, 137, 0.5);
+	padding: 40px;
+	margin: 10px;
+	margin-left: 80px;
+	margin-right: 80px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #9dea67;
+	text-transform: uppercase;
+}
+
+.button:hover {
+	background: rgba(69,168,53,0.5);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+		border-radius: 10px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+		border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active{
+	color: #57bfb8;
+}
