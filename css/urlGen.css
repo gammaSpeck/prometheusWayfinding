@@ -1,0 +1,76 @@
+
+body {
+	/* Sets the BGI */
+	background: url("../images/directions.jpg") no-repeat center center fixed;
+	background-size: cover;    /* Spans full page-Cover Picture style */
+	font-size: 15px;/*15px default for whole page, unless specified otherwise */
+	font-weight: 500;/* Default Thickness of letters */
+	font-family: 'Lato', sans-serif;
+	color: #30200e;
+	text-align: center;
+}
+
+
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	width: 700px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+		border-radius: 10px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+		border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active{
+	color: #57bfb8;
+}

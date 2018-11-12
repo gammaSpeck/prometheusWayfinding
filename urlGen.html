@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/urlGen.css">
+	<link rel="icon" href="images/fav.ico" type="image/ico">
+</head>
+
+<script text='text/javascript'>
+	function genURL(){
+		var v1 = document.getElementById("v1").value;
+		var v2 = document.getElementById("v2").value;
+		
+		document.getElementById("t").value = "http://mwz.io/f/p/cmrit_96a42dbf/" + v1 + "/t/p/cmrit_96a42dbf/" + v2 + "?k=0mR97D4vmjSCovGh&z=20";
+	}
+	
+</script>
+
+
+
+
+<body>
+<center>
+
+	<ul>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="outdoor_wayfinder.html">Outdoor wayfinding</a></li>
+	  <li><a href="indoor_wayfinder.html">Indoor Wayfinding</a></li>
+	  <li><a class="active" href="#">URL Generator</a></li>
+	  <li><a href="About.html">About</a></li>
+	</ul>
+<br>
+
+
+
+<div class="container">
+	<h3>Generate URL</h3>
+
+	<form>
+		<select id="v1">
+			<option value="" disabled selected> From </option>
+			<option value="australia">Australia</option>
+			<option value="canada">Canada</option>
+			<option value="usa">USA</option>
+		</select>
+
+		<select id="v2">
+			<option value="" disabled selected> To </option>
+			<option value="australia" >Australia</option>
+			<option value="canada">Canada</option>
+			<option value="usa">USA</option>
+		</select>
+
+
+		<input type="button" value="Find path" onclick="genURL()">
+		<input type="reset" value="Reset"/></td>
+		<br><br>
+
+		<input type="text" id="t" />
+		
+
+	</form>
+</div>
+
+</center>
+
+</body>
+</html>
